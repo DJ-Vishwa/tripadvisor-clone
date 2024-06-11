@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+.navbar-title{
+    display: flex;
+    gap: 30px;   
+    cursor: pointer;
+}
+
+.navbar-title :hover{
+    background-color: rgb(212, 209, 214);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.navbar-button button {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.navbar-button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.heading h1{
+    text-align: center;
+    margin: 30px;
+    text-decoration: solid;
+}
+
+.Title-search {
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+   cursor: pointer;
+}
+.Title-search :hover{
+    text-decoration: underline;
+}
+
+
+/* navbar */
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+}
+.navbar__s2 input{
+    border: none;
+    width: 60%;
+    font-size: 15px;
+    background-color: transparent;
+    justify-content: center;
+    display: flex;
+    color: black;
+    
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.img-1{
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-1__start{
+    background-color: darkorchid;
+    margin-top: 7%;
+}
+.img-1__disc{
+    position: relative;
+}
+
+.img-1 img{
+   width:100%;
+   height: 100%;
+}
+
+.img-1__disc p{
+    position: relative;
+    bottom: 500px;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+}
+.img-1__disc h1{
+    position: relative;
+    bottom: 550px;
+    margin: 15px;
+    padding: 15px;
+}
+.img-1__disc h2{
+    position: relative;
+    bottom: 570px;
+    margin: 15px;
+    padding: 15px;
+}
+.img-1__disc button{
+    position: relative;
+    bottom: 590px;
+    margin: 15px;
+    padding: 15px;
+    margin-left: 80px;
+    border-radius: 25px;
+    width: 170px;
+    font-size: medium;
+    background-color: rgb(130, 39, 235);
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+}
+.img-1__disc button:hover{
+    background-color: rgba(83, 43, 226, 0.842);
+}
+
+.sponsered{
+    background-color: rgb(192, 188, 189);
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.sponsered-img img{
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    
+}
+.sponsered-disc{
+    padding: 5px;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.sponsered-disc input{
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(146, 146, 146);
+    color: black;
+    padding: 3px;
+}
+.sponsered-disc h1{
+    margin-top: 30px;   
+}
+
+.sponsered-disc h3,button{
+    margin-top: 30px;
+}
+.sponsered-disc button{
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    cursor: pointer;   
+    border-color: transparent;
+}
+.sponsered-disc button:hover{
+    background-color: black;
+    color: white;
+}
+
+.award{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.award-title p,h2{
+    margin: 10px;
+    padding: 10px;
+}
+.award-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.award-img img{
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    
+}
+.award-disc{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+.container{
+    margin-top: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container-title h2,h3{
+    padding: 10px;
+    margin: 10px;
+}
+
+.tour-card1 img{
+    height: 280px;
+    width: 280px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.tour-card1 p{
+    margin: 3px;
+    padding: 5px;
+    justify-content: space-evenly;
+
+}
+
+.container-3{
+    background-color: pink;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.container-3-img {
+    display: inline-block;
+}
+.container-3-disc{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.container-3-disc button{
+    margin-left: 600px;
+    border: 2px;
+    border-radius: 20px;
+    border-color: transparent;
+    border-style: solid;
+    padding: 10px;
+    cursor: pointer;
+}
+.container-3-disc button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container-4{
+    background-color: pink;
+    margin-top: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+.container-4-card {     
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-4-card1 img{
+    height: 250px;
+    width: 370px;
+    justify-content: space-between;
+}
+.container-4-card1 p{
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    cursor: pointer;
+}
+
+.container-4-card1 p:hover{
+    text-decoration: underline;
+}
+
+.container-5{
+    padding: 10px;
+    margin: 10px;
+}
+.container-5__Tittle h1{
+    padding: 10px;
+    margin: 10px;
+   
+}
+.container-5__img h1{
+    font-size: medium;
+    position: relative;
+    margin-bottom: 50px;
+}
+.container-5__img img{
+    height: 280px;
+    width: 280px;
+   
+}
+.container-5-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    width: 20px;
+    position: relative;
+}
+.button button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border-color: black 2px;
+}
+
+.container-6{
+    margin-bottom: 350px;
+    background-color: rgba(218, 218, 218, 0.726);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+.container-6-disc{
+    text-align: center;  
+    margin-top: 20%;
+    margin-left: 200px;
+}
+.container-6-disc p{
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.container-6-disc button{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border-color: transparent;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.container-6-disc__one:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-6-disc h1,h4{
+    margin-top: 5px;
+}
+
+.container-7{
+    background-color: pink;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-7-disc_2 P{
+    margin: 3px;
+    padding: 3px;
+    gap: 5px;
+    
+}
+.container-7-disc_1 p{
+    margin: 3px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.container-7-disc_3 p{
+    margin: 3px;
+    padding: 3px;
+    cursor: pointer;
+
+}
+.container-7-disc_4 p{
+    margin: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+    .img-1{
+        display: none;
+    }
+}
